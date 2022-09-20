@@ -3,6 +3,9 @@
 
 #pragma once
 
+#define MANUFACTURER    Orb_Control
+#define PRODUCT         Cephalopod_Left_Hand_Side
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

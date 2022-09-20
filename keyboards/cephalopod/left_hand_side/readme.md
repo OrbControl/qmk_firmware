@@ -6,7 +6,7 @@
 
 * Keyboard Maintainer: [K.](https://github.com/OrbControl)
 * Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Availability: [Orb Control](https://orbcontrol.com)
 
 Make example for this keyboard (after setting up your build environment):
 

@@ -1,7 +1,7 @@
 {
-    "manufacturer": "K.",
-    "keyboard_name": "cephalopod",
-    "maintainer": "OrbControl",
+    "manufacturer": "Orb_Control",
+    "keyboard_name": "Cephalopod_Right_Hand_Side",
+    "maintainer": "https://github.com/OrbControl",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
     "features": {

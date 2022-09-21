@@ -6,8 +6,12 @@
 #include "config_common.h"
 
 /* key matrix size */
-#define MATRIX_ROWS 6
+#define MATRIX_ROWS 5
 #define MATRIX_COLS 6
+
+/* key matrix pins */
+#define MATRIX_ROW_PINS { B0, F1, F5, F7, D6 }
+#define MATRIX_COL_PINS { D7, B4, C7, F6, F4, F0 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW

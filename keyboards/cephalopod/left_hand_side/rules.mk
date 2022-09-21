@@ -1,6 +1,9 @@
 # MCU name
 MCU = atmega32u4
 
+# Bootloader selection
+BOOTLOADER = atmel-dfu
+
 CONSOLE_ENABLE = no         # Console for debug
 
 COMMAND_ENABLE = no         # Commands for debug and configuration
@@ -11,7 +14,7 @@ LTO_ENABLE = yes			# Enables Link Time Optimization (LTO) when compiling the key
 
 MOUSEKEY_ENABLE = no        # Mouse keys
 
-EXTRAKEY_ENABLE = yes		# Audio control and System control
+EXTRAKEY_ENABLE = no		# Audio control and System control
 
 NKRO_ENABLE = yes			# USB N-Key Rollover
 

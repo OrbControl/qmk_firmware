@@ -3,8 +3,19 @@
 
 #pragma once
 
+#include "config_common.h"
+
+/* key matrix size */
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 6
+
+/* COL2ROW or ROW2COL */
+#define DIODE_DIRECTION COL2ROW
+
 #define MANUFACTURER    Orb_Control
 #define PRODUCT         Cephalopod_Left_Hand_Side
+
+#define DEBOUNCE 5
 
 /*
  * Feature disable options

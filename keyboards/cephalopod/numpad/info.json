@@ -17,7 +17,7 @@
         "rows": ["D1", "D1", "D1", "D1", "D1", "D1"]
     },
     "processor": "atmega32u4",
-    "url": "",
+    "url": "https://OrbControl.com",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",

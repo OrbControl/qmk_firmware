@@ -16,9 +16,6 @@
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-#define MANUFACTURER    Orb_Control
-#define PRODUCT         Cephalopod_Left_Hand_Side
-
 #define DEBOUNCE 5
 
 /*

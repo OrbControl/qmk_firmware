@@ -1,6 +1,6 @@
 {
     "manufacturer": "Orb_Control",
-    "keyboard_name": "Cephalopod_Left_Hand_Side",
+    "keyboard_name": "left_hand_side",
     "maintainer": "https://github.com/OrbControl",
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",

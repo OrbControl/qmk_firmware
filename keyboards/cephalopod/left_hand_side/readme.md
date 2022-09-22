@@ -1,11 +1,11 @@
-# Orb Control Cephalopod_Left_Hand_Side
+# Orb Control Cephalopod Left_Hand_Side
 
 ![cephalopod](imgur.com image replace me!)
 
 *An atmega32u4 MCU keyboard with a 6x6 layout*
 
 * Keyboard Maintainer: [K.](https://github.com/OrbControl)
-* Hardware Supported: Orb Control Cephalopod_Left_Hand_Side
+* Hardware Supported: Orb Control Cephalopod Left_Hand_Side
 * Hardware Availability: [Orb Control](https://OrbControl.com)
 
 Make example for this keyboard (after setting up your build environment):

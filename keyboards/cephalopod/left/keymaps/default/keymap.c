@@ -6,7 +6,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │Esc│  │F1 │F2 │F3 │F4 │
      * └───┘  └───┴───┴───┴───┘
      * ┌───┬───┬───┬───┬───┬───┐
-     * │ Row 1 is deleted      │
+     * │ Row 1 is disabled     │
      * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┐
      * │ Tab │ Q │ W │ E │ R │ T │
      * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┐

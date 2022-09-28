@@ -3,24 +3,8 @@
     "keyboard_name": "left",
     "maintainer": "https://github.com/OrbControl",
     "processor": "atmega32u4",
-    "bootloader": "atmel-dfu",
     "url": "https://OrbControl.com",
-    "build": {
-      "lto": true
-  },
-  "features": {
-    "bootmagic": true,
-    "console": true,
-    "encoder": true,
-    "mousekey": false,
-    "extrakey": false,
-    "nkro": true,
-    "quantum_painter": true,
-    "rgb_matrix": true,
-    "unicode": false,
-    "wpm": true
-  },
-  "matrix_pins": {
+    "matrix_pins": {
     "rows": ["B0","F1","F5","F7","D6"],
     "cols": ["D7","B4","C7","F6","F4","F0"]
     },
@@ -37,7 +21,6 @@
                 {"label":"F2", "x":2.75, "y":0},
                 {"label":"F3", "x":3.75, "y":0},
                 {"label":"F4", "x":4.75, "y":0},
-
                 {"label":"Tab", "x":0, "y":2.25, "w":1.5},
                 {"label":"Q", "x":1.5, "y":2.25},
                 {"label":"W", "x":2.5, "y":2.25},

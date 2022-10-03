@@ -18,6 +18,8 @@
 
 #define DEBOUNCE 5
 
+#define LED_CAPS_LOCK_PIN C6
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

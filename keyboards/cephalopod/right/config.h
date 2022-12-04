@@ -3,8 +3,22 @@
 
 #pragma once
 
-#define MANUFACTURER    Orb_Control
-#define PRODUCT         Cephalopod_Right_Hand_Side
+#include "config_common.h"
+
+/* key matrix size */
+#define MATRIX_ROWS 7
+#define MATRIX_COLS 7
+
+/* key matrix pins */
+#define MATRIX_ROW_PINS { F1, F0, D0, D2, B5, C7, B4 }
+#define MATRIX_COL_PINS { B6, D1, D6, D7, D3, D5, D4 }
+
+/* COL2ROW or ROW2COL */
+#define DIODE_DIRECTION COL2ROW
+
+#define DEBOUNCE 5
+
+#define LED_CAPS_LOCK_PIN C6
 
 /*
  * Feature disable options

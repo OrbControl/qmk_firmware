@@ -6,7 +6,7 @@
     "url": "https://OrbControl.com",
     "usb": {
         "device_version": "0.0.1",
-        "pid": "0xE712",
+        "pid": "E712",
         "vid": "0x04D8"
     },
     "layouts": {

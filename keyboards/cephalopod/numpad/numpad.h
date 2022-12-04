@@ -1,6 +1,8 @@
-#include QMK_KEYBOARD_H
+#pragma once
 
-const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+#include "quantum.h"
+
+
     /*
      * ┌───┬───┬───┐     ┌───┬───┬───┐
      * │PSc│Scr│Ply│     │Mut│Vdn│Vup│
@@ -17,12 +19,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │ ← │ ↓ │ → │ │   0   │ . │   │
      * └───┴───┴───┘ └───────┴───┴───┘
      */
-    [0] = LAYOUT(
-        KC_PSCR,  KC_SCRL,  KC_MPLY,  KC_MUTE,  KC_VOLD, KC_VOLU,
-        KC_INS,   KC_HOME,  KC_BSPC,  KC_PSLS,  KC_PAST, KC_PMNS,
-        KC_DEL,   KC_PGUP,  KC_P7,    KC_P8,    KC_P9,   KC_PPLS,
-        KC_LEFT,  KC_PGDN,  KC_P4,    KC_P5,    KC_P6,   KC_PENT,
-        KC_DOWN,  KC_END,   KC_P1,    KC_P2,    KC_P3,
-        KC_RGHT,  KC_UP,              KC_P0,    KC_PDOT
-    )
-};
+       
+#define LAYOUT_numpad( \
+	K00,   K01,   K02,   K03,   K04,   K05,   \
+	K10,   K11,   K12,   K13,   K14,   K15,   \
+  K20,   K21,   K22,   K23,   K24,   K25,   \
+	K30,   K31,   K32,   K33,   K34,   K35,   \
+	K40,   K41,   K42,   K43,   K44,          \
+	K50,   K51,          K53,   K54           \
+) { \
+  { K00,   K01,   K02,   K03,   K04,   K05   }, \
+  { K10,   K11,   K12,   K13,   K14,   K15   }, \
+  { K20,   K21,   K22,   K23,   K24,   K25   }, \
+  { K30,   K31,   K32,   K33,   K34,   K35   }, \
+  { K40,   K41,   K42,   K43,   K44,   KC_NO }, \
+  { K50,   K51,   KC_NO, K53,   K54,   KC_NO }  \
+
+}
+       

@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *      └─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────────┤
      *        │ N │ M │ , │ . │ / │    Shift │
      * ┌──────┴───┴┬──┴─┬─┴──┬┴───┼────┬─────┤
-     * │           │Bksp│ Alt│ GUI│Caps│ Ctrl│
+     * │           │ Del│ Cmd│ Opt│Caps│ Ctrl│
      * └───────────┴────┴────┴────┴────┴─────┘
      */
     [0] = LAYOUT_right(
@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Y,    KC_U,    KC_I,     KC_O,     KC_P,     KC_LBRC,  KC_EQL,
         KC_H,    KC_J,    KC_K,     KC_L,     KC_SCLN,  KC_QUOT,  KC_BSPC,
         KC_N,    KC_M,    KC_COMM,  KC_DOT,   KC_SLSH,  KC_RSFT,  KC_BSLS,
-        KC_SPC,  KC_BSPC, KC_RALT,  KC_RGUI,  KC_CAPS,  KC_RCTL,  KC_RBRC,
+        KC_SPC,  KC_DEL,  KC_RCMD,  KC_ROPT,  KC_CAPS,  KC_RCTL,  KC_RBRC,
                                                                   KC_ENT
     )
 };

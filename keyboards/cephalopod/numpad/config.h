@@ -18,7 +18,7 @@
 
 #define DEBOUNCE 5
 
-#define LED_SCROLL_LOCK_PIN C6
+#define LED_NUM_LOCK_PIN C6
 
 /*
  * Feature disable options

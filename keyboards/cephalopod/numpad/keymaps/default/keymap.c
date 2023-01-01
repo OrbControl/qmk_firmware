@@ -3,10 +3,10 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
      * ┌───┬───┬───┐     ┌───┬───┬───┐
-     * │PSc│Scr│Ply│     │Mut│Vdn│Vup│
+     * │F13│F14│F15│     │Mut│Vdn│Vup│
      * └───┴───┴───┘     └───┴───┴───┘
      * ┌───┬───┬───┐ ┌───┬───┬───┬───┐
-     * │Ins│Hom│PgU│ │Bks│ / │ * │ - │
+     * │Ins│Hom│PgU│ │Num│ / │ * │ - │
      * ├───┼───┼───┤ ├───┼───┼───┼───┤
      * │Del│End│PgD│ │ 7 │ 8 │ 9 │   │
      * └───┴───┴───┘ ├───┼───┼───┤ + │
@@ -18,8 +18,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───┴───┘ └───────┴───┴───┘
      */
     [0] = LAYOUT_numpad(
-        KC_PSCR,  KC_SCRL,  KC_MPLY,  KC_MUTE,  KC_VOLD, KC_VOLU,
-        KC_INS,   KC_HOME,  KC_BSPC,  KC_PSLS,  KC_PAST, KC_PMNS,
+        KC_F13,   KC_F14,   KC_F15,   KC_MUTE,  KC_VOLD, KC_VOLU,
+        KC_INS,   KC_HOME,  KC_NUM,   KC_PSLS,  KC_PAST, KC_PMNS,
         KC_DEL,   KC_PGUP,  KC_P7,    KC_P8,    KC_P9,   KC_PPLS,
         KC_LEFT,  KC_PGDN,  KC_P4,    KC_P5,    KC_P6,   KC_PENT,
         KC_DOWN,  KC_END,   KC_P1,    KC_P2,    KC_P3,

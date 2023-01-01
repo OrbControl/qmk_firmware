@@ -12,16 +12,16 @@
     "layouts": {
         "LAYOUT_numpad": {
             "layout": [
-                {"label":"PrintScreen", "x":0, "y":0}, 
-                {"label":"ScrollLock", "x":1, "y":0}, 
-                {"label":"PausePlay", "x":2, "y":0}, 
+                {"label":"F13", "x":0, "y":0}, 
+                {"label":"F14", "x":1, "y":0}, 
+                {"label":"F15", "x":2, "y":0}, 
                 {"label":"Mute", "x":4.25, "y":0}, 
                 {"label":"VOLD", "x":5.25, "y":0}, 
                 {"label":"VOLU", "x":6.25, "y":0}, 
-                {"label":"Insert", "x":0, "y":1.25}, 
+                {"label":"Insert/Fn", "x":0, "y":1.25}, 
                 {"label":"Home", "x":1, "y":1.25}, 
                 {"label":"PgUp", "x":2, "y":1.25}, 
-                {"label":"BackSpace", "x":3.25, "y":1.25}, 
+                {"label":"NumLock/Clear", "x":3.25, "y":1.25}, 
                 {"label":"/", "x":4.25, "y":1.25}, 
                 {"label":"*", "x":5.25, "y":1.25}, 
                 {"label":"-", "x":6.25, "y":1.25}, 

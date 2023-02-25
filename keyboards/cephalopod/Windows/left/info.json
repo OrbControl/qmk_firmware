@@ -1,0 +1,53 @@
+{
+    "manufacturer": "Orb_Control",
+    "keyboard_name": "left",
+    "maintainer": "https://github.com/OrbControl",
+    "processor": "atmega32u4",
+    "url": "https://OrbControl.com",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0xE713",
+        "vid": "0x04D8"
+    },
+    "layouts": {
+        "LAYOUT_left": {
+            "layout": [
+                {"label":"Esc", "x":0, "y":0},
+                {"label":"F1", "x":1.75, "y":0},
+                {"label":"F2", "x":2.75, "y":0},
+                {"label":"F3", "x":3.75, "y":0},
+                {"label":"F4", "x":4.75, "y":0},
+                {"label":"Tilda", "x":0, "y":1.25}, 
+                {"label":"1", "x":1, "y":1.25}, 
+                {"label":"2", "x":2, "y":1.25}, 
+                {"label":"3", "x":3, "y":1.25}, 
+                {"label":"4", "x":4, "y":1.25}, 
+                {"label":"5", "x":5, "y":1.25},
+                {"label":"Tab", "x":0, "y":2.25, "w":1.5},
+                {"label":"Q", "x":1.5, "y":2.25},
+                {"label":"W", "x":2.5, "y":2.25},
+                {"label":"E", "x":3.5, "y":2.25},
+                {"label":"R", "x":4.5, "y":2.25},
+                {"label":"T", "x":5.5, "y":2.25},
+                {"label":"CapsLock", "x":0, "y":3.25, "w":1.75},
+                {"label":"A", "x":1.75, "y":3.25},
+                {"label":"S", "x":2.75, "y":3.25},
+                {"label":"D", "x":3.75, "y":3.25},
+                {"label":"F", "x":4.75, "y":3.25},
+                {"label":"G", "x":5.75, "y":3.25},
+                {"label":"Shift", "x":0, "y":4.25, "w":2.25},
+                {"label":"Z", "x":2.25, "y":4.25},
+                {"label":"X", "x":3.25, "y":4.25},
+                {"label":"C", "x":4.25, "y":4.25},
+                {"label":"V", "x":5.25, "y":4.25},
+                {"label":"B", "x":6.25, "y":4.25},
+                {"label":"Control", "x":0, "y":5.25, "w":1.5},
+                {"label":"GUI", "x":1.5, "y":5.25, "w":1.25},
+                {"label":"Alt", "x":2.75, "y":5.25, "w":1.25},
+                {"label":"BackSpace", "x":4, "y":5.25, "w":1.25},
+                {"label":"Space", "x":5.25, "y":5.25, "w":3}
+            ]
+        }
+    }
+}
+

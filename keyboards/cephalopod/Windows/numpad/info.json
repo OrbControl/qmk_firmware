@@ -1,0 +1,52 @@
+{
+    "manufacturer": "Orb_Control",
+    "keyboard_name": "numpad",
+    "maintainer": "https://github.com/OrbControl",
+    "processor": "atmega32u4",
+    "url": "https://OrbControl.com",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0xE711",
+        "vid": "0x04D8"
+    },
+    "layouts": {
+        "LAYOUT_numpad": {
+            "layout": [
+                {"label":"PrintScreen", "x":0, "y":0}, 
+                {"label":"ScrollLock", "x":1, "y":0}, 
+                {"label":"PausePlay", "x":2, "y":0}, 
+                {"label":"Mute", "x":4.25, "y":0}, 
+                {"label":"VOLD", "x":5.25, "y":0}, 
+                {"label":"VOLU", "x":6.25, "y":0}, 
+                {"label":"Insert", "x":0, "y":1.25}, 
+                {"label":"Home", "x":1, "y":1.25}, 
+                {"label":"PgUp", "x":2, "y":1.25}, 
+                {"label":"BackSpace", "x":3.25, "y":1.25}, 
+                {"label":"/", "x":4.25, "y":1.25}, 
+                {"label":"*", "x":5.25, "y":1.25}, 
+                {"label":"-", "x":6.25, "y":1.25}, 
+                {"label":"Delete", "x":0, "y":2.25}, 
+                {"label":"End", "x":1, "y":2.25}, 
+                {"label":"PgDn", "x":2, "y":2.25}, 
+                {"label":"7", "x":3.25, "y":2.25}, 
+                {"label":"8", "x":4.25, "y":2.25}, 
+                {"label":"9", "x":5.25, "y":2.25}, 
+                {"label":"+", "x":6.25, "y":2.25, "h":2}, 
+                {"label":"4", "x":3.25, "y":3.25}, 
+                {"label":"5", "x":4.25, "y":3.25}, 
+                {"label":"6", "x":5.25, "y":3.25}, 
+                {"label":"Up", "x":1, "y":4.25}, 
+                {"label":"1", "x":3.25, "y":4.25}, 
+                {"label":"2", "x":4.25, "y":4.25}, 
+                {"label":"3", "x":5.25, "y":4.25}, 
+                {"label":"Enter", "x":6.25, "y":4.25, "h":2}, 
+                {"label":"Left", "x":0, "y":5.25}, 
+                {"label":"Down", "x":1, "y":5.25}, 
+                {"label":"Right", "x":2, "y":5.25}, 
+                {"label":"0", "x":3.25, "y":5.25, "w":2}, 
+                {"label":".", "x":5.25, "y":5.25}
+            ]
+        }
+    }
+}
+
